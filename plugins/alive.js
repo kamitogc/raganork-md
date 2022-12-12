@@ -77,11 +77,11 @@ Module({
 ┃${star}│ Server : ${__dirname.startsWith('/skl')?"Heroku":"Private (VPS)"}
 ┃${star}│ Available RAM: ${used} of ${total}
 ┃${star}│ Version: ${config.VERSION}
+┃${star}│ ${BOT_INFO.split(";")[0]}
 ┃${star}│
-┃${star}│
-┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃${star}│   ${BOT_INFO.split(";")[0]}
+┃${star}│ 
+┃${star}│ 
+┃${star}│   
 ┃${star}│ 
 ┃${star}╰───────────────
 ╰═════════════════⊷
