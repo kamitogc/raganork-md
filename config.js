@@ -15,7 +15,7 @@ module.exports = {
     ANTI_SPAM: process.env.ANTI_SPAM || '919074309534-1632403322@g.us',
     ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '7/10',
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group auto unmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
-    READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
+    READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || true,
     PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
